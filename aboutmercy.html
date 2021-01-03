@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>AllAboutMercy</title>
+        <script>
+            function blink()
+                {
+                    let body = document.querySelector('.blinks');
+                        if (body.style.visibility == 'hidden')
+                        {
+                            body.style.visibility = 'visible';
+                        }
+                        else
+                        {
+                            body.style.visibility = 'hidden';
+                        }
+                }
+            window.setInterval(blink, 500);
+        </script>
+    </head>
+    <body class = "mercy">
+        <h1 class = "blinks" style="font-style: italic;"> Hi there!</h1>
+        <p>
+        <img src="IMG_5665.jpg" class="rounded mx-auto d-block" width = "200">
+        </p>
+        <h3>
+            <p>
+            My name is Mercy Idindili. I am a 21 year old Tanzanian. I am a Junior at Yale University, majoring in Statistics and Data Science.
+            My hobbies include singing, writing and listening to music.
+            I am currently on a personal journey towards better mental, physical, emotional and spiritual health.
+            I write all about it <a href="blogposts.html">here.</a>
+            </p>
+            <p>
+            Once in a while, I recreate iconic data visuals using R or create data visuals on
+            topics that I care about. You can find all of those projects <a href="dataprojects.html">here.</a>
+            </p>
+            <p>
+            I regurlarly post updates, photos and chat with with anybody interested on my
+            <a href="https://www.instagram.com/mercy_writes/">instagram:)</a>
+            </p>
+            <p>
+            Back to the <a href="index.html">homepage.</a>
+            </p>
+        </h3>
+    </body>
+</html>
